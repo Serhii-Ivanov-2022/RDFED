@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><Pay-Form-lesson6></title>
+
+</head>
+<body>
+    <h1>Payment Form</h1>
+<form action="/form html" method="get">
+<fieldset>
+    <legend>Payment form</legend>
+    <label>
+    Card namber
+    
+    <input 
+    required
+    type="text" 
+    name="card-namber" />
+    </label>
+<br/>
+
+    <label>
+        Expiration month
+        
+        <select required name="expiration-month">
+            <option></option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+
+
+        </select>
+    </label>
+    
+
+    <label>
+        Year
+        
+        <select required name="expiration-year">
+            <option></option>
+            <option value="22">2022</option>
+            <option value="23">2023</option>
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+            <option value="26">2026</option>
+        </select>
+    </label>
+    <br />
+    <label>
+        Cardholder namber
+        
+        <input 
+        required
+        maxlength="19"
+        minlength="16"
+        name="name"
+        type="text"
+        />
+    </label>
+
+    <br />
+
+    <label>
+        CVV
+        
+        <input
+        required
+        maxlength="4"
+        minlength="3"
+        type="password"
+        name="svv"/>
+    </label>
+</fieldset>
+<br />
+
+<fieldset>
+    <Legend>Shipping</Legend>
+    Shopping Service <br />
+    <label>
+        Nova Poshta
+        <input
+        type="radio"
+        name="shipping"
+        value="NP" />
+
+    </label>
+    <br />
+    <label>
+        Mist Express
+        <input
+        type="radio"
+        name="shipping"
+        value="meest" />
+
+    </label>
+    <br />
+</fieldset>
+
+<br />
+<fieldset>
+    <legend>User Info</legend>
+    <label for="payment-email">Send receipt to the email</label>
+        <input 
+        id="payment-email"
+        type="email"
+        name="email" />
+
+    <br />
+    <label for="paymant-comment">Comment for the order:</label><br />
+    <textarea
+        id="paymant-comment"
+        name="paymant-comment"
+        rows="20"
+        cols="80"
+    ></textarea>
+<br />
+
+  <label>
+    <input
+    type="checkbox"
+    name="do-not-call"
+    />
+    Do not call me back
+  </label>  
+  <a href="http://test.com/terms-of-service">Terms of service</a>
+<br />
+<br />
+    
+</fieldset>
+
+<input type="submit"
+value="Pay" 
+/>
+</form>
+</body>
+</html>
