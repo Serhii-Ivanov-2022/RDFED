@@ -1,0 +1,46 @@
+body{
+    color: #333;
+}
+
+
+#heading-1{
+    font-style: italic;
+}
+
+#position-1{
+    font-weight: bold;
+}
+
+.book-page{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+.Achievements{
+    list-style-type:square;
+}
+
+.link:link{
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link:visited{
+color: #005;
+text-decoration: underline;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+    
+    
+
+
+
+
+
+
