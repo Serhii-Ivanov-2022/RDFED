@@ -1,0 +1,29 @@
+
+.bottom line{
+    border-bottom: 5px solid;
+    border-bottom: thick double #32a1ce;
+
+}
+
+
+
+
+.frame{
+    border: 2px solid blue;
+    width: 80px;
+    padding: 10px;
+    margin: 0 0 0 0;
+
+}
+
+
+
+.table{
+    
+    background-color:azure;
+}
+
+.th{
+    background-color:lightskyblue;
+}
+

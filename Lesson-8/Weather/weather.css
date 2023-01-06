@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(217, 0, 255);
+    padding-top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.weather-widget{
+    
+    background-color: blue;
+    color: white;
+    border: greenyellow 5px;
+    margin: 0 auto;
+
+}
+.heading-cell{
+    padding: 20px;
+    text-align: center;
+}
+
+.title-cell{
+    text-transform: uppercase;
+}
+
+.city-name{
+    font-weight: bold;
+}
+
+.temperature{
+    font-size: 200%;
+
+}
+
+.week-weather td{
+    padding: 5px 20px;
+}
+
+.week-weather:nth-child(odd){
+    background-color: blueviolet;
+}
+
+
+.day-weather{
+    color: yellow;
+}
+
+.night-weather{
+    color: lightgreen;
+}
