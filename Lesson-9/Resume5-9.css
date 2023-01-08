@@ -1,0 +1,51 @@
+.bottom line{
+    border-bottom: 5px solid;
+    border-bottom: thick double #32a1ce;
+}
+
+.frame{
+    border: 2px solid blue;
+    height: 100px;
+    padding: 10px;
+    margin: 0 0 0 0;
+}
+
+.table{
+    
+    background-color:azure;
+}
+
+.th{
+    background-color:lightskyblue;
+}
+
+.container{
+   
+    border-bottom: thick double lightskyblue
+}
+
+.container1{
+    
+    border-bottom: thick double lightskyblue       
+}
+
+.container2{
+    
+    border-bottom: thick double lightskyblue;
+    display: grid;
+}
+
+.container3{
+    
+    border-bottom: thick double lightskyblue;
+}
+.container4{
+    
+    border-bottom: thick double lightskyblue;
+}
+
+.my-image{
+    width: 100;
+    float: right;
+  
+}
